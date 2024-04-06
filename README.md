@@ -1,5 +1,8 @@
 
-# APS :E-Commerce Portfolio
+# APS Portfolio
+## E-Commerce Portfolio
+
+* * *
 
 <dl>
 <dt>Course Name</dt>
