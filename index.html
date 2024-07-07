@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<!--
+  Prologue by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Prologue by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <div id="header">
+      <div class="top">
+        <!-- Logo -->
+        <div id="logo">
+          <h1 id="title">Akshata S Hamasagar</h1>
+          <p style="text-align: right">01fe21bcs165</p>
+        </div>
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#top" id="top-link"
+                ><span class="icon solid fa-home"> About</span></a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" id="portfolio-link"
+                ><span class="icon solid fa-user"> Introduction</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" id="about-link"
+                ><span class="icon solid fa-th"> Business cases</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+      <!-- Intro -->
+      <section id="top" class="one dark cover">
+        <div class="container">
+          <header>
+            <h2>
+              Optimizing E-commerce: Algorithms for Seamless Shopping
+              Experiences
+            </h2>
+            <br /><br /><br />
+            <h3 class="abc1">
+              <pre>
+Course Name:
+  Algorithmic Problem Solving
+Course Code:
+  23ECSE309
+Name:
+  Akshata S Hamasagar
+University:
+  KLE Technological University, Hubballi-31
+Portfolio Domain:
+  E-commerce
+            </pre
+              >
+            </h3>
+          </header>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio" class="two">
+        <div class="container">
+          <div class="contents">
+            This page hosts:<br />
+            <ol>
+              <li>Domain Description</li>
+              <li>Objectives</li>
+              <li>
+                Identified functionalities
+                <ul>
+                  <li>Functionalities Description</li>
+                  <li>Proposed algorithms with code</li>
+                  <li>Performance analysis</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+          <h1>DOMAIN DESCRIPTION</h1>
+          <h3 class="abc1">Overview:</h3>
+          <p class="abc2">
+            The e-commerce domain encompasses online platforms where businesses
+            and consumers engage in buying and selling products or services over
+            the internet. It has revolutionized retail by offering convenience,
+            accessibility, and a global marketplace for transactions. E-commerce
+            platforms range from large-scale marketplaces like Amazon and
+            Alibaba to specialized retailers and boutique stores.
+          </p>
+          <h3 class="abc1">Key Characteristics:</h3>
+          <ul>
+            <li class="myli">
+              E-commerce transcends geographical boundaries, allowing businesses
+              to reach customers worldwide.
+            </li>
+            <li class="myli">
+              Facilitates secure online payments and transactions through
+              various payment gateways.
+            </li>
+            <li class="myli">
+              Offers a vast array of products ranging from consumer goods and
+              electronics to services and digital content.
+            </li>
+            <li class="myli">
+              Utilizes data-driven insights to personalize user experiences
+              through targeted marketing and recommendation systems.
+            </li>
+            <li class="myli">
+              Efficient management of inventory, order fulfillment, and delivery
+              logistics are crucial for customer satisfaction.
+            </li>
+            <li class="myli">
+              Harnesses cutting-edge technologies such as AI, machine learning,
+              and real-time analytics to enhance operations and customer
+              interactions.
+            </li>
+          </ul>
+          <h1>OBJECTIVES</h1>
+          <ol>
+            <li class="myli">
+              To analyze, propose enhancements, and optimize 20 critical
+              functionalities within e-commerce platforms.
+            </li>
+            <li class="myli">
+              To understand current algorithms and methodologies used in each
+              functionality.
+            </li>
+            <li class="myli">
+              To suggest advanced algorithms or enhancements designed to improve
+              operational efficiency, user engagement, and overall performance.
+            </li>
+            <li class="myli">
+              To evaluate proposed algorithms against existing ones focusing on
+              aspects such as speed, scalability, and cost-effectiveness.
+              Present comprehensive space and time complexity analyses for the
+              identified algorithms. Explain any limitations and trade-offs
+              associated with the proposed solutions.
+            </li>
+            <li class="myli">
+              To provide detailed code and references to relevant sources.
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Functionalities -->
+      <section id="about" class="three">
+        <div class="container">
+          <header>
+            <h1>FUNCTIONALITIES</h1>
+          </header>
+          <div class="bus-content">
+            <div class="box">
+              <h3 class="myh">1.Real-Time Product Search (Amazon)</h3>
+
+              <h4 class="myh4">Existing algorithm:</h4>
+              <p class="abc2">
+                Elasticsearch with TF-IDF.<br />
+                Elasticsearch with TF-IDF (Term Frequency-Inverse Document
+                Frequency) is a widely used search engine technology that
+                indexes and retrieves documents based on relevance scores
+                calculated using TF-IDF.
+                <br />Limitations:<br />TF-IDF computes document similarity
+                directly in the word-count space, which can be slow for large
+                vocabularies. TF-IDF does not consider the semantic meaning of
+                words: it cannot understand the context of the words and derive
+                their meaning. Moreover, it fails to define semantic links
+                between words.
+              </p>
+              <h4 class="myh4">Proposed algorithm:</h4>
+              <p class="abc2">
+                Trie-based Search.<br />
+                Trie-based search is a data structure that efficiently stores
+                and retrieves strings. It is particularly useful for searching
+                for substrings within a large corpus of text.
+              </p>
+              <p class="abc2">
+                Trie-based search algorithms can potentially address some of the
+                limitations of TF-IDF used in Elasticsearch.
+              </p>
+              <ol>
+                <li class="myli">
+                  Speed and Efficiency:
+                  <ul>
+                    <li class="myli">
+                      TF-IDF Limitation: TF-IDF calculates document similarity
+                      based on word frequencies and inverse document
+                      frequencies, which can be computationally intensive for
+                      large vocabularies and documents.
+                    </li>
+                    <li class="myli">
+                      Trie-based Solution: Trie structures are efficient for
+                      prefix matching, allowing for faster retrieval of terms
+                      compared to traditional inverted indices used in TF-IDF.
+                      This efficiency can speed up search operations, especially
+                      in scenarios with large datasets.
+                    </li>
+                  </ul>
+                </li>
+                <li class="myli">
+                  Semantic Understanding and Context:
+                  <ul>
+                    <li class="myli">
+                      TF-IDF Limitation: TF-IDF operates primarily on
+                      statistical measures (word frequencies and document
+                      frequencies) without directly capturing semantic
+                      relationships or understanding the contextual meaning of
+                      words.
+                    </li>
+                    <li class="myli">
+                      Trie-based Solution: While tries themselves do not
+                      inherently add semantic understanding, they can facilitate
+                      more nuanced search functionalities. By structuring data
+                      hierarchically based on prefixes, tries can potentially be
+                      extended or combined with semantic analysis techniques.
+                    </li>
+                  </ul>
+                </li>
+                <li class="myli">
+                  Semantic Links Between Words:
+                  <ul>
+                    <li class="myli">
+                      TF-IDF Limitation: TF-IDF does not establish semantic
+                      links between words, which limits its ability to handle
+                      synonyms, related terms, or contextually similar terms
+                      effectively.
+                    </li>
+                    <li class="myli">
+                      Trie-based Solution: Tries can be designed to incorporate
+                      relationships between terms or augmentations that capture
+                      semantic links. For instance, by linking nodes in a trie
+                      with related terms or by integrating semantic embeddings
+                      into the trie structure, it's possible to enhance search
+                      results by considering synonyms or related concepts.
+                    </li>
+                  </ul>
+                </li>
+              </ol>
+              <h4 class="myh4">Space and Time Complexity Analysis:</h4>
+              <p class="abc2">Trie:</p>
+
+              <ul class="myul">
+                Time complexity:
+                <li class="myli">
+                  Insertion: O(m) where m is the length of the word
+                </li>
+                <li class="myli">
+                  Search: O(m) where m is the length of the word.
+                </li>
+              </ul>
+
+              <ul class="myul">
+                Space complexity:
+                <li class="myli">
+                  O(n * m) in the worst case, where n is the number of words and
+                  m is the average length of the words
+                </li>
+              </ul>
+
+              <p class="abc2">Elasticsearch with TF-IDF:</p>
+
+              <ul class="myul">
+                Time complexity:
+                <li class="myli">
+                  Indexing: O(n) where n is the number of documents.
+                </li>
+                <li class="myli">
+                  Search: O(q + d) where q is the number of terms in the query
+                  and d is the number of matching documents.
+                </li>
+              </ul>
+
+              <ul class="myul">
+                Space complexity:
+                <li class="myli">
+                  Proportional to the number of unique terms in the indexed
+                  documents, optimized through compression and indexing
+                  techniques
+                </li>
+              </ul>
+
+              <h3>Why use trie?</h3>
+              <p>
+                To fully leverage the benefits of trie-based search and address
+                the semantic limitations of TF-IDF, integration with semantic
+                technologies or enhanced data structures (like graph databases
+                for semantic relationships) would be necessary. This hybrid
+                approach could combine the efficiency of trie-based indexing
+                with the semantic richness required for understanding context
+                and meaning in text-based searches.<br />While trie-based search
+                algorithms offer advantages such as efficient substring searches
+                and faster prefix matching, they also come with certain
+                limitations:<br />Memory Usage: Tries can consume a significant
+                amount of memory, especially for large datasets. Each node in
+                the trie represents a character, and for datasets with a vast
+                vocabulary or long strings, the memory overhead can be
+                substantial.
+
+                <br />
+                Time Complexity: Although tries excel in prefix matching and
+                substring searches, their time complexity can be higher compared
+                to other data structures like hash tables or binary search
+                trees, especially when dealing with very large datasets.
+              </p>
+              <h4 class="myh4">Conclusion:</h4>
+              <p>
+                While trie-based search is powerful for specific substring and
+                prefix matching tasks, Elasticsearch with TF-IDF remains a
+                preferred choice for many applications due to its overall
+                efficiency, scalability, and feature-rich capabilities in
+                handling large-scale text search and retrieval operation
+              </p>
+              <h4 class="h4">Code:</h4>
+              <p>
+                Trie code:<a
+                  href="https://github.com/RohitKaushal7/trie-search"
+                >
+                  Click here!!</a
+                ><br />
+                Elasticsearch code:<a
+                  href="https://github.com/elastic/elasticsearch"
+                  >Click here!!</a
+                >
+              </p>
+              <h4 class="abc2">Sources:</h4>
+              <p class="abc2">
+                <a href="https://hyperskill.org/learn/step/31428">hyperskill</a
+                >,<a
+                  href="https://www.quora.com/What-are-some-known-issues-of-Elasticsearch"
+                  >Qoura</a
+                >,<a
+                  href="https://stackoverflow.com/questions/51085169/elastic-search-or-trie-for-search-autocomplete"
+                  >stackoverflow</a
+                >
+              </p>
+            </div>
+            <h2>..</h2>
+
+            <div class="box">
+              <h3 class="myh">2. Cart feature</h3>
+              <p class="abc2">Items can be added and removed from cart which user wants to purchase.</p>
+              <h4 class="myh4">Data Structure: Hash Table</h4>
+              <h4 class="myh4">Market benefits:</h4>
+              <ul>
+                <li class="myli">
+                  Immediate Access: Users can quickly add items to their cart
+                  with average constant-time complexity for insertion O(1).
+                </li>
+                <li class="myli">
+                  Efficient Management: Items can be efficiently retrieved and
+                  managed, ensuring users can easily view and modify their
+                  selections.
+                </li>
+                <li class="myli">
+                  Control and Flexibility: Users maintain control over their
+                  shopping experience, adding or removing items as needed
+                  without constraints.
+                </li>
+                <li class="myli">
+                  Memory Efficiency: Space complexity for the initial creation
+                  of the hash table is O(m), where 𝑚 m is the number of initial
+                  items added to the cart, and it dynamically adjusts as items
+                  are added or removed.
+                </li>
+              </ul>
+              <h4 class="myh4">Time complexity:</h4>
+              <ul>
+                <li class="myli">
+                  Insertion: O(1) average time complexity for adding items to
+                  the cart.
+                </li>
+                <li>
+                  Deletion: O(1) average time complexity for removing items from
+                  the cart based on their unique identifier (e.g., product ID)
+                </li>
+                <li class="myli">Lookup:O(1) average time complexity.</li>
+              </ul>
+              <h4 class="myh4">Space complexity:</h4>
+              <ul>
+                <li class="myli">
+                  Creation: O(m), where m is the number of items initially added
+                  to the cart. The space complexity dynamically adjusts based on
+                  the number of items in the cart.
+                </li>
+              </ul>
+              <h4 class="myh4">
+                Additional feature can be implemented of search in cart:
+              </h4>
+              <p class="abc2">
+                Time complexity for search is O(1) it can be implemented.
+              </p>
+              <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--7x2naWJ6--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://cl.ly/dcc906e5110a/Image%25202019-05-12%2520at%252011.38.16%2520PM.png" alt="Image for hashing" height="300" width="400">
+              <h4 class="myh4">Limitations</h4>
+              <ul>
+                <li class="myli">Hash Collisions: In a hash table, multiple keys may hash to the same index, causing collisions</li>
+                <li class="myli">Deterministic Performance: While average time complexities for insertion, deletion, and lookup are O(1), these operations can degrade to O(n) in worst-case scenarios (e.g., under a poor hash function or high collision rate).</li>
+                <li class="myli">Memory Overhead and load factor</li>
+              </ul>
+              <h4 class="myh4">Code: <a href="https://github.com/ByJuanDiego/hash-table">Click here!</a></h4>
+              <h4 class="myh4">Sources:<a href="https://dev.to/loganwohlers/intro-to-hash-tables-js-objects-under-the-hood-26oa">DEV ,</a><a href="https://github.com/bradtraversy/traversy-js-challenges/blob/main/06-hash-tables-maps-sets/02-hash-table-intro/readme.md">Hash table intro by brad</a></h4>
+            </div>
+            <h2>..</h2>
+            <div class="box">
+              <h3 class="myh">3. Dynamic Pricing Adjustments</h3>
+              <p class="abc">Dynamic pricing often involves range queries that help determine the optimal price based on various factors such as demand, competitor pricing, and historical sales data. </p>
+              <h4 class="myh4">Data Structure: Segment tree with lazy propogation for deff</h4>
+              <h4 class="myh4">Market benefits:</h4>
+              <ul><li class="myli">Ensures optimal pricing during peak demand periods</li>
+              <li class="myli">Efficient Bulk Updates:
+
+                During a demand surge, prices may need to be adjusted across multiple products simultaneously. Lazy propagation allows for these bulk updates to be deferred and applied only when necessary, reducing the overhead of immediate updates</li>
+              <li class="myli">Reduced Update Time:
+
+                Without lazy propagation, each update to the segment tree would require traversing and updating all relevant nodes, leading to a high time complexity, especially for large datasets. Lazy propagation ensures updates are marked and propagated in 
+                
+                O(logn) time, significantly improving performance</li>
+                <li class="myli">Optimal Resource Utilization:
+
+                  In peak demand periods, system resources can be strained. Lazy propagation helps in spreading the computational load, applying updates only when queries are made, thus optimizing the use of CPU and memory resources.</li>
+                <li class="myli">Consistency and Accuracy:
+
+                  Ensures that all deferred updates are accurately applied before any query results are returned. This consistency is crucial for dynamic pricing, where real-time accuracy directly impacts revenue and customer satisfaction</li>
+              <li class="myli">Scalability:
+
+                Allows the system to handle a large number of price adjustments efficiently, making it scalable for high-traffic periods. This is essential for e-commerce platforms that experience significant fluctuations in user activity.</li>
+              </ul>
+              <h4 class="myh4">Time complexity:</h4>
+              <ul><li class="myli">Build:O(n)</li><li class="myli">Update:O(logn)</li></ul>
+              <h4 class="myh4">Space complexity:</h4>
+              <ul><li class="myli">O(n)</li></ul>
+              <h4 class="myh4">Limitations:</h4>
+              <ul><li class="myli">
+                Complex Implementation
+              </li>
+              <li class="myli">Although segment trees with lazy propagation are space-efficient for range queries and updates, they still consume more memory .</li>
+              <li class="myli">While deferred updates improve performance, they introduce a delay in the immediate application of updates.</li>
+            </ul>
+            <h4 class="myh4">Code:<a href="https://github.com/vivek1011/Segment-tree-lazy-propagation-">Click here</a></h4>
+            <h4 class="myh4">Sources: <a href="https://www.hackerearth.com/practice/notes/segment-tree-and-lazy-propagation/#:~:text=If%20current%20segment%20tree%20node,%5B%5D%20array%20for%20children%20nodes.">Hackerearth</a><a href="https://www.scaler.com/topics/data-structures/segment-tree-with-lazy-propagation/">, Scalar</a><a href="https://codeforces.com/blog/entry/72626">, Codeforces</a></h4>
+             </div>
+            <h2>..</h2>
+            <div class="box">
+             <h3 class="myh">4. Revenue Forecasting</h3> 
+              <p class="abc2">Revenue forecasting involves predicting future revenue based on current and historical sales data. Accurate forecasting is crucial for strategic planning, budgeting, and financial management.</p>
+              <h4 class="myh4">Data Structure: Segment tree with range sum queries.
+              <h4 class="myh4">Market analysis:</h4>
+              <ul>
+                <li class="myli">Strategic Planning: Accurate revenue forecasts enable businesses to make informed decisions about inventory, marketing, and expansion.</li>
+                <li class="myli">Financial Management: Helps in budgeting and financial planning by providing insights into expected revenue streams.</li>
+                <li class="myli">Resource Allocation: Assists in the optimal allocation of resources based on predicted revenue patterns.</li>
+              </ul>
+              <h4 class="myh4">Time complexity:</h4>
+              <ul><li class="myli">Build:O(n)</li><li class="myli">Query:O(logn)</li></ul>
+              <h4 class="myh4">Space complexity:</h4>
+              <ul><li class="myli">O(n)</li></ul>
+              <h4 class="myh4">Existing algorithms used are:</h4>
+              <ul>
+                <li class="myli">Small and Medium-Sized Enterprises (SMEs): Smaller e-commerce businesses often rely on simpler, cost-effective methods for revenue forecasting due to limited resources and technical expertise.</li>
+                <li class="myli">Shopify Stores: Many Shopify store owners use basic tools and built-in analytics for forecasting and financial planning, leveraging simple statistical methods available through Shopify's platform.</li>
+                <li class="myli">Etsy Sellers: Individual sellers on Etsy often use basic spreadsheet tools or Etsy's analytics dashboard, which may involve simple statistical methods for predicting sales trends and revenue</li>
+                
+              </ul>
+              <h4 class="myh4">Advantage of using Segment trees with range sum queries:</h4>
+              <ul>
+                <li class="myli">Efficiency: Provides efficient range sum queries and updates, essential for handling large volumes of sales data in real-time</li>
+                <li class="myli">Real-Time Capabilities: Supports dynamic updates, ensuring that forecasts are always based on the latest sales data.</li>
+                <li class="myli">Scalability: Can handle large datasets and frequent updates more efficiently than basic linear scans or regression models</li>
+              </ul>
+              <h4 class="myh4">Limitations</h4>
+              <ul>
+                <li class="myli">Implementing and maintaining segment trees requires a deeper understanding of data structures and algorithms. Managing edge cases like updates and maintaining balance in the tree can add complexity to the codebase</li>
+                <li class="myli">Segment trees can consume more memory compared to simpler data structures due to their tree-like structure and additional metadata stored at each node, potentially impacting memory usage for large datasets.</li>
+                <li class="myli">Implementation Overhead: Setting up and initializing a segment tree requires additional setup time and code complexity compared to simpler statistical models or built-in platform tools.</li>
+              </ul>
+              <h4 class="myh4">Code : <a href="https://github.com/amulyagaur/Segment-Tree/blob/master/range-sum-query.cpp">Click here!!</a></h4>
+              <h4 class="myh4">Sources:<a href="https://medium.com/@badapplesweetie/segment-trees-range-sum-queries-in-python-b2c52b24a77c">Medium,</a><a href="https://www.geeksforgeeks.org/segment-tree-range-minimum-query/#:~:text=Segment%20tree%20can%20be%20used%20to%20do%20preprocessing%20and%20query,to%20store%20the%20segment%20tree.">geeksforgeeks, </a><a href="https://www.baeldung.com/cs/segment-trees">baeldung, </a><a href="https://help.shopify.com/en/manual/shipping/fulfillment-services/understanding-fulfillment-services/forecasting-your-orders">shopify</a><a href="https://www.thebusinessplanshop.com/en/financial-forecast/guides/how-to-create-an-etsy-shop-financial-forecast">Etsy</a></h4>
+
+
+            </div>
+            <h2>..</h2>
+            <div class="box">
+              <h3 class="myh">5. Stock availability check</h3>
+              <p class="abc2">The stock availability check ensures that products are within the desired price range and in stock. This functionality uses a segment tree to efficiently manage and query stock status and price information, enabling e-commerce platforms to maintain optimal inventory levels and prevent stockouts.</p>
+              <h4 class="myh4">Data Structure: Range Minimum/Maximum Query (RMQ)</h4>
+              <h4 class="myh4">Implementation:</h4>
+              <p class="abc2">A segment tree is constructed where each node represents a range of products, and the value at each node holds the minimum or maximum stock count (or price) for that range. To check if products are within a desired price range or if a specific product is in stock, the segment tree is queried for the minimum or maximum values within the relevant range.When stock levels change due to sales or restocking, the segment tree is updated to reflect the new stock counts.</p>
+              <h4 class="myh4">Market analysis:</h4>
+              <ul>
+                <li class="myli">Prevents Stockouts: By maintaining accurate and real-time stock information, e-commerce platforms can prevent stockouts, ensuring that popular products are always available for purchase.</li>
+                <li class="myli">Improves Customer Satisfaction: Quick and reliable stock availability checks lead to a better shopping experience, as customers are less likely to encounter out-of-stock items or unexpected price changes</li>
+                <li class="myli">Optimizes Inventory Management: Efficient stock management helps businesses reduce excess inventory and associated costs, while ensuring that products are available when needed.</li>
+              </ul>
+              <h4 class="myh4">Time complexity:</h4>
+              <ul><li class="myli">Build:O(n) ,where n is number of products.</li><li class="myli">Query:O(logn) for min/max queries</li><li class="myli">Update: 
+                
+                O(logn) for updating stock counts or prices.</li></ul>
+              <h4 class="myh4">Space complexity:</h4>
+              <ul><li class="myli">O(n), as the segment tree stores aggregated data for each range of products</li></ul>
+              <h4 class="myh4">Comparision with existing are:</h4>
+              <p class="abc2">Some platforms rely on SQL queries to retrieve stock information. While more efficient than linear scans, complex queries can still be slow and resource-intensive, particularly with large datasets.<br/>Magento (Older Versions): Some older versions of Magento may rely on basic SQL queries for stock checks.<br/>Drawbacks: Complex queries can still be slow and resource-intensive, particularly with large datasets.
+              </p>
+              <h4 class="myh4">Advantage of using Segment trees with min/max query</h4>
+              <ul>
+                <li class="myli">Efficient Queries: Segment trees allow for 
+                  
+                  O(logn) time complexity for range minimum/maximum queries, making them significantly faster than linear scans or complex SQL queries.</li>
+                <li class="myli">Real-Time Updates: Segment trees can be updated in 
+                
+                  O(logn) time, ensuring that stock information remains current without significant performance overhead.</li>
+                <li class="myli">Scalability: As inventories grow, segment trees maintain efficient performance, unlike linear scans and complex SQL queries, which can become increasingly slow and resource-intensive.</li>
+              </ul>
+              <h4 class="myh4">Limitations</h4>
+              <ul>
+                <li class="myli">Implementing and maintaining a segment tree requires a good understanding of data structures and algorithms. Developers need to handle edge cases such as tree balancing, which can add complexity to the codebase.</li>
+                <li class="myli">Segment trees can consume more memory compared to simpler data structures, especially for large datasets. Each node in the tree stores additional metadata, and maintaining balance may require additional overhead.</li>
+                <li class="myli">Setting up and initializing a segment tree requires additional development time and effort compared to using built-in database functionalities or simpler data structures.</li>
+              </ul>
+              <h4 class="myh4">Code : <a href="https://github.com/svjan5/Competitive-Programming/blob/master/Templates/Segment%20trees%20-%20ranged%20minimum%20query.cpp">click here for ranged minimum query </a> or <a href="https://github.com/amulyagaur/Segment-Tree/blob/master/range-max-query.cpp">Click her for ranged maximum query</a></h4>
+              <h4 class="myh4">Sources:<a href="https://stackoverflow.com/questions/63451461/why-when-do-we-use-segment-trees-for-range-minimum-query">Stackoverflow</a>, <a href="https://www.javatpoint.com/segment-tree-range-minimum-query">Javapoint</a>, <a href="https://yegorshytikov.medium.com/magento-adobe-commerce-2-sql-queries-to-fetch-product-category-customer-order-invoice-b6d0a1b23c7d">Medium</a></h4>
+            </div>
+
+            
+            <h2>..</h2>
+            <div class="box">
+              <h3 class="myh">6. Competitive Price Analysis</h3>
+              <p class="abc2">This functionality aims to identify optimal price points for products based on competitor pricing data. It uses binary search operations facilitated by a segment tree to quickly compare and analyze prices across different competitors</p>
+              <h4 class="myh4">Data Structure: Segment tree with Binary Search</h4>
+              <p class="abc2">The functionality of Competitive Price Analysis using binary search operations with a segment tree is highly relevant to e-commerce. E-commerce platforms often face intense competition where pricing directly impacts sales and market share. Using a segment tree for competitive price analysis allows businesses to adjust prices dynamically based on real-time competitor data. This agility helps in optimizing pricing strategies to attract price-sensitive customers while maximizing profit margins. The segment tree facilitates quick identification of optimal price points relative to competitors, enabling businesses to position themselves strategically in the market.
+
+              </p>
+              <h4 class="myh4">Implementation:</h4>
+              <p class="abc2"> A segment tree is constructed where each node represents a segment of prices or products.By leveraging the segment tree, binary search operations are performed to efficiently find optimal price points. This involves comparing prices against predefined thresholds or ranges within the segment tree.The segment tree is updated with new competitor pricing data to ensure real-time analysis and adjustments.</p>
+              <h4 class="myh4">Market analysis:</h4>  
+              <ul>
+                <li class="myli">Enhanced Competitive Pricing Strategies: By quickly identifying competitive price points, e-commerce platforms can adjust their pricing strategies in real-time. This enables businesses to remain competitive and capture market opportunities effectively.</li>
+                <li class="myli">Improved Profit Margins: Optimizing prices based on competitive analysis helps businesses maximize profit margins while remaining attractive to customers.</li>
+                <li class="myli">Market Positioning: Insights gained from competitive price analysis allow businesses to position themselves strategically in the market, attracting price-sensitive customers while maintaining profitability.</li>
+              </ul>
+              <h4 class="myh4">Time complexity:</h4>
+              <ul><li class="myli">Build:O(n) ,where 
+             
+                n is the number of competitors or price points.</li><li class="myli">Query:O(logn) for min/max queries</li><li class="myli">Search: 
+                 
+                  O(logn) for binary search operations using the segment tree.</li>
+                <li class="myli">Update: 
+                  
+                  O(logn) for updating competitor pricing data in the segment tree</li></ul>
+              <h4 class="myh4">Space complexity:</h4>
+              <ul><li class="myli">O(n),  as the segment tree stores aggregated data for each segment of prices or products.</li></ul>
+                  <h4 class="muh4">Existing methods:</h4>
+                  <p class="abc2">Some businesses like Small Retail Businesses,Less Digitally Mature Companies manually compare prices across competitors, which can be time-consuming and prone to errors.Others may use basic SQL queries to retrieve and compare competitor pricing data, which can be inefficient for real-time analysis.</p>
+                  <h4 class="myh4">Advantage of using Segment trees with Binary Search</h4>
+                  <ul>
+                    <li class="myli">Efficiency: Segment trees enable 
+                     
+                      O(logn) time complexity for binary search operations, significantly faster than manual comparisons or basic database queries.</li>
+                    <li class="myli">Scalability: As the number of competitors or price points grows, segment trees maintain efficient performance, ensuring timely competitive analysis.</li>
+                    <li class="myli">Accuracy: Automated binary search operations reduce human error and provide more accurate competitive insights, helping businesses make informed pricing decisions.</li>
+                  </ul>
+                  <h4 class="myh4">Limitations</h4>
+              <ul>
+                <li class="myli"> Implementing and maintaining a segment tree with binary search operations requires a solid understanding of data structures and algorithms. Developers need to handle complexities such as tree balancing and query optimization, which can add to the implementation overhead.
+
+                </li>
+                <li class="myli">Segment trees can consume significant memory, especially when storing aggregated data for each segment of prices or products. This may pose scalability challenges with extremely large datasets or limited memory resources.</li>
+                <li class="myli"> Setting up a segment tree with binary search operations requires additional development effort compared to basic manual comparisons or simple database queries. This initial setup may require more time and resources.</li>
+              </ul>
+                  <h4 class="myh4">Code : <a href="https://github.com">!!!!!TO GIVE</a></h4>
+                  <h4 class="myh4">Sources: <a href="https://www.flintfox.com/resources/articles/competitive-price-analysis/#:~:text=What%20is%20a%20competitive%20price,pricing%20in%20relation%20to%20you.">Flintfox</a>,<a href="https://codeforces.com/blog/entry/83883"> Codeforces</a> </h4>
+
+
+            </div>
+            <h2>..</h2>
+            <div class="box">
+              <h3 class="myh">7. Price Range filter</h3>
+              <p class="abc2">This functionality allows customers to filter products based on price ranges</p>
+              <h4 class="myh4">Data Structure: Segment tree with min/max range</h>
+              <h4 class="myh4">Implementation:</h4>
+              <p class="abc2">Utilizes a Segment Tree data structure to efficiently determine the minimum and maximum prices within a category of products.
+                </p>
+                <h4 class="myh4">Market analysis:</h4>
+                <ul>
+                  <li class="myli">Enhances user experience by providing fast and relevant search results, thereby improving user satisfaction and potentially increasing conversion rates.</li>
+                </ul>
+                <h4 class="myh4">Time complexity:</h4>
+              <ul><li class="myli">Build:O(n),n is the number of products or prices</li><li class="myli">Query:O(logn)</li></ul>
+              <h4 class="myh4">Space complexity:</h4>
+              <ul><li class="myli">O(n),the segment tree typically requires additional space proportional to the number of elements 
+                
+                n</li></ul>
+                <h4 class="myh4">Limitations:</h4>
+                <ul>
+                  <li class="myli">Complexity of Implementation </li>
+                  <li class="myli">Performance Overhead </li>
+                  <li class="myli">While efficient for range queries, segment trees may not support all types of filtering requirements common in e-commerce platforms, such as complex logical conditions or non-numeric data attributes. </li>
+                </ul>
+                <h4 class="myh">Existing methods comparision:</h4>
+                <p class="abc2">Some small scale business applications older versions used to use Linear Scans or Basic Database Queries.These methods typically have linear time complexity (O(n)) for scanning or querying through product lists, which can lead to slower response times, especially with large datasets. This may result in delayed search results and potentially outdated information for users.<br/> Utilizing a Segment Tree significantly improves the efficiency of price range filtering with O(log n) time complexity for queries. This improvement in speed ensures that users receive up-to-date and relevant product results quickly, thereby enhancing user satisfaction and improving the likelihood of completing purchases.</p>
+                <h4 class="myh4">Code : <a href="https://github.com/svjan5/Competitive-Programming/blob/master/Templates/Segment%20trees%20-%20ranged%20minimum%20query.cpp">click here for ranged minimum query </a> or <a href="https://github.com/amulyagaur/Segment-Tree/blob/master/range-max-query.cpp">Click her for ranged maximum query</a></h4>
+              <h4 class="myh4">Sources:<a href="https://stackoverflow.com/questions/63451461/why-when-do-we-use-segment-trees-for-range-minimum-query">Stackoverflow</a>, <a href="https://www.javatpoint.com/segment-tree-range-minimum-query">Javapoint</a>, <a href="https://yegorshytikov.medium.com/magento-adobe-commerce-2-sql-queries-to-fetch-product-category-customer-order-invoice-b6d0a1b23c7d">Medium</a></h4>
+
+            </div>
+            <h2>..</h2>
+            <div class="box">
+              <h3 class="myh">8. Seasonal Content suggestion</h3>
+              <p class="abc2">In e-commerce, seasonal content suggestion algorithms play a crucial role in driving sales and enhancing customer satisfaction:</p>
+              <ul>
+                <li class="myli">Personalization: By recommending products tailored to seasonal interests, e-commerce platforms can deliver a personalized shopping experience. This improves customer engagement and encourages repeat visits.</li>
+                <li class="myli">Marketing Advantage: Leveraging seasonal trends to boost sales and revenue during peak periods</li>
+                <li class="myli">Automated time-based filtering reduces manual effort in curating seasonal content, allowing teams to focus on strategic initiatives and customer service</li>
+              </ul>
+              <h4 class="myh4">Market benefits:</h4>
+              <ul>
+                <li class="myli">Enhanced customer experience by providing relevant and timely recommendations.</li>
+                <li class="myli">Increased sales and revenue by leveraging seasonal trends and promoting seasonal products.</li>
+              </ul>
+              <h4 class="myh4">Algorithm: Time based filtering </h4>
+              <p class="abc2">Time-based filtering is a technique used to filter data based on
+                specific time intervals. 
+              <h4 class="myh4">Challenges:</h4>  
+              <ul>
+                <li class="myli">Maintaining accurate and up-to-date data on seasonal trends.</li>
+                <li class="myli">May struggle with accurately predicting user preferences for seasonal content.</li>
+              </ul>
+              <h4 class="myh4">Time Complexity</h4>
+                <ul>
+                  <li class="myli">Update/Insertion: O(1) - Updating or inserting seasonal data into the filtering mechanism</li>
+                  <li class="myli">Query/Recommendation: O(n) - Generating recommendations for users based on current seasonal filters, where n is the number of products considered within the seasonal time window.</li>
+                </ul>
+                <h4 class="myh4">Space Complexity</h4>
+                <ul>
+                  <li class="myli">Storage: O(n) - Space required to store seasonal filters and associated product data, where n is the number of products considered within the seasonal context.</li>
+                </ul>
+              <h4 class="myh4">Code: <a href="https://github.com/chen0040/mxnet-recommender">Click here!!</a></h4>
+              <h4 class="myh4">Source: <a href="https://cran.r-project.org/web/packages/tibbletime/vignettes/TT-01-time-based-filtering.html">CRAN</a></h4>
+
+            </div>
+            <h2>..</h2>
+            <div class="box">
+              <h3 class="myh">9. Real-time content updates and notifications</h3>
+              <p class="abc2">Real-time content updates and notifications play a critical role in enhancing user engagement and satisfaction in the e-commerce domain.</p>
+              <h4 class="myh4">Market Benefits:</h4>
+              <ul>
+                <li class="myli">Timely Updates: Delivering real-time updates and notifications about product availability status changes (out of stock, back in stock) ensures users are promptly informed.</li>
+                <li class="myli">Enhanced User Engagement: Notifications tailored to individual preferences, including updates on product availability, can increase user engagement by providing relevant and timely information.</li>
+                </ul>
+                <h4 class="myh4">Algorithm: Enhanced Stream-based Collaborative Filtering</h>
+                  <p class="abc2">Stream-based Collaborative Filtering (SCF) is a recommendation
+                    algorithm that leverages user interactions with products to generate personalized recommendations.</p>
+                <h4 class="myh4">Implementation consideration:</h4>
+                <p class="abc2">Integration with Inventory Management: Ensure seamless integration with the inventory management system to receive real-time updates on stock availability.<br/>Personalized Notifications: Utilize user data and preferences to personalize notifications, ensuring relevance and increasing engagement<br/>Performance Monitoring: Monitor algorithm performance to optimize real-time processing and notification delivery, ensuring scalability and responsiveness as user and product volumes grow.</p>
+                <h4 class="myh4">Time Complexity</h4>
+                <ul>
+                  <li class="myli">Insertion/Update: O(1) - Adding or updating stock availability data in the stream.</li>
+                  <li class="myli">Query/Notification: O(m * n), where m is the number of users and n is the number of items. Notifications are triggered based on user preferences and current stock status changes</li>
+                </ul>
+                <h4 class="myh4">Space Complexity</h4>
+                <ul>
+                  <li class="myli">Storage: O(m + n), where m is the number of users and n is the number of items. This includes storing user preferences and item attributes necessary for real-time updates and notifications.</li>
+                </ul>
+                <h4 class="myh4">Code:<a href="https://github.com/asif536/Movie-Recommender-System">Code for Collaborative fitering by matrix factorisation</a></h4>
+                <h4 class="myh4">Source: <a href="https://www.geeksforgeeks.org/collaborative-filtering-ml/">geeksforgeeks</a>
+              
+            </div>
+            <h2>..</h2>
+            <div class="box">
+              <h3 class="myh">10. Geographic location based recommendation </h3>
+              <p class="abc2">Geo-Based Filtering recommends products or content based on the user's geographic location. It aims to provide localized recommendations that align with local trends, events, or preferences</p>
+              <h4 class="myh4">Market Benefits:</h4>
+              <ul>
+                <li class="myli">Provides personalized recommendations that are relevant to the user's specific location, improving satisfaction and engagement.
+                </li>
+                <li class="myli">Increases interaction and conversion rates by offering content that resonates with local preferences and interests.</li>
+              </ul>
+              <h4 class="myh4">Algorithm: Geo-Based Filtering</h4>
+              <p class="abc2">Geo-Based Filtering leverages user location data to recommend products or
+                content that align with local trends, events, or preferences.</p>
+                <h4 class="myh4">Implementation consideration:</h4>
+                <p class="abc2"> Efficient handling of user location data to support real-time recommendation updates.<br/>Continuous optimization to adapt to changing local trends and preferences.<br/>Ensuring compliance with privacy regulations and addressing user concerns regarding data security and transparency.</p>
+                <h4 class="myh4">Time Complexity</h4>
+                <ul>
+                  <li class="myli">Update/Insertion: O(1) - Updating or inserting geographic data into the filtering mechanism</li>
+                  <li class="myli">Query/Recommendation: O(n) - Generating recommendations based on the user's current geographical location, where n is the number of items considered.</li>
+                </ul>
+                <h4 class="myh4">Space Complexity</h4>
+                <ul>
+                  <li class="myli">Storage: O(n) - Space required to store geographic filters and associated product data, where n is the number of items considered within the geographic context.</li>
+                </ul>
+                <h4 class="myh4">Code:<a href="https://github.com/shakasom/location-based-recommendations">code for location based recommendation</a></h4>
+                <h4 class="myh4">Sources:<a href="https://guide.haltdos.com/solutions/waf/listener/security-profile/geo-filtering">Haltdos guide</a>,<a href="https://www.geoplugin.com/resources/geo-filtering-what-is-it-and-what-are-its-advantages/">geoplugin</a></h4>
+            </div>
+            <h2>..</h2>
+            <div class="box">
+              <h3 class="myh">11. Advertisement Recommendation</h3>
+            <p class="abc2">User-specific advertisement recommendation systems play a crucial role in maximizing ad revenue and enhancing user experience</p>
+            <h4 class="myh4">Market benefits:</h4>
+            <ul>
+              <li class="myli">Maximized Ad Revenue: By targeting ads based on detailed user profiles and behavior, e-commerce platforms can increase the effectiveness of ad placements, leading to higher revenue from advertisers.</li>
+              <li class="myli">Enhanced User Experience: Provides users with advertisements that align with their interests and preferences, improving satisfaction and reducing perceived intrusiveness.</li>
+            </ul>
+            <h4 class="myh4">Algorithm: Context-Aware Recommender Systems</h4>
+            <p class="abc2">Context-Aware Recommender Systems tailor advertisements based on contextual information such as user behavior, demographics, and content preferences. These systems aim to deliver personalized ad recommendations that are relevant and engaging to users.</p>
+            <h4 class="myh4">Implementation consideration:</h4>
+                <p class="abc2"> Integration with data sources for user profiling (e.g., behavior analytics, demographics) and ad inventory management.<br/>Optimization to handle real-time updates and scalability as the user and ad volumes grow.<br/>Ensuring adherence to privacy regulations and implementing transparent policies regarding data usage and user consent.</p>
+                <h4 class="myh4">Time Complexity</h4>
+                <ul>
+                  <li class="myli">Update/Insertion: O(1) - Updating or inserting user profile and ad inventory data</li>
+                  <li class="myli">Query/Recommendation: O(m * n) - Generating personalized ad recommendations based on user profiles and available advertisements, where m is the number of users and n is the number of advertisements considered</li>
+                </ul>
+                <h4 class="myh4">Space Complexity</h4>
+                <ul>
+                  <li class="myli">Storage: O(m + n) - Space required to store user profiles and ad inventory data, where m is the number of users and n is the number of advertisements.</li>
+                </ul>
+                <h4 class="myh4">Challenges</h4>
+                <ul>
+                  <li class="myli">Data Privacy: Ensuring compliance with privacy regulations and addressing user
+                    concerns regarding data security and transparency.</li>
+                    <li class="myli">Data Accuracy: Requires accurate and comprehensive user profiling and ad inventory data to ensure precise targeting and relevance.</li>
+                </ul>
+                <h4 class="myh4">Code:<a href="https://github.com/yadavgaurav251/Context-Aware-Recommender">code for context-aware-recommender</a></h4>
+                <h4 class="myh4">Sources:<a href="https://medium.com/@andresespinosapc/the-basics-of-context-aware-recommendations-5dd7a939049b">Medium</a></h4>
+
+
+          </div>
+          <h2>..</h2>
+          <div class="box">
+            <h3 class="myh">12. Diverse Content Exploration</h3>
+            <p class="abc2">Diverse content exploration is a crucial aspect of e-commerce platforms
+              as it helps users discover new products and services that align with their interests and preferences.</p>
+              <h4 class="myh4">Market benefits:</h4>
+              <ul>
+                <li class="myli">Enhanced Discovery: Encourages users to explore a wider range of products, leading to higher customer satisfaction and engagement.</li>
+                <li class="myli">Increased Sales: Diverse recommendations can lead to increased sales by introducing users to products they might not have found otherwise.</li>
+                <li class="myli">Customer Retention: Offering a variety of content helps keep users engaged and returning to the platform, reducing churn rates.</li>
+              </ul>
+              <h4 class="myh4">Algorithm: Diversity-Aware Recommender Systems</h4>
+              <p class="abc2">Diversity-Aware Recommender Systems aim to balance the recommendations between popular and niche items. These systems consider the popularity of items along with their uniqueness to provide a varied selection of products that still cater to the user's interests.</p>
+              <h4 class="myh4">Implementation consideration:</h4>
+              <p class="abc2">Ensure integration with user behavior analytics to accurately gauge preferences and diversity measures.
+                Use data from various sources, such as purchase history, browsing behavior, and user feedback.<br/>Optimize the algorithm to handle real-time updates and ensure scalability as the user and product volumes grow.
+                Implement techniques to efficiently balance between relevance and diversity in recommendations.<br/>Regularly monitor the performance of the recommender system to fine-tune the balance between popular and niche items</p>
+              <h4 class="myh4">Challenges:</h4>
+              <ul>
+                <li class="myli">Ensuring that recommendations are both relevant to the user and diverse in nature can be challenging.</li>
+                <li class="myli">Diverse recommendations need to align with individual user preferences to avoid presenting irrelevant items.</li>
+              </ul>
+              <h4 class="myh4">Time Complexity</h4>
+                <ul>
+                  <li class="myli">Overall Recommendation: O(n * m), where n is the number of items and m is the complexity of calculating the diversity measure. This involves evaluating each item for its relevance and diversity.</li>
+                  
+                </ul>
+                <h4 class="myh4">Space Complexity</h4>
+                <ul>
+                  <li class="myli">Storage: O(n), where n is the number of items. The space is required to store the item attributes and diversity measures.</li>
+                </ul>
+                <h4 class="myh4">Code:<a href="https://github.com/alirezagharahi/d_sknn">Session-based News Recommenders Diversity-aware</a></h4>
+
+          </div>
+          <h2>..</h2>
+          <div class="box">
+            <h3 class="myh">13. User Engagement Analysis</h3>
+            <p class="abc2">User engagement analysis is a crucial aspect of e-commerce platforms as
+              it helps businesses understand how users interact with their products and services. By analyzing user engagement, businesses  
+              can identify areas for improvement, optimize their offerings, and improve customer satisfaction.</p>
+              <h4 class="myh4">Market benefits:</h4>
+              <ul>
+                <li class="myli">It offers significant benefits by identifying peak engagement periods, optimizing content scheduling, and enhancing user interaction strategies, which ultimately improve overall user engagement and satisfaction.</li>
+              </ul>
+              <h4 class="myh4">Algorithm: Kadanes algorithm</h4>
+              <p class="abc2">Kadane's algorithm is a dynamic programming algorithm that finds
+                the maximum sum of a subarray in an array. </p>
+                <h4 class="myh4">Implementation consideration:</h4>
+                <p class="abc2">Kadane’s algorithm is employed by treating user engagement metrics (such as clicks, views, or purchases) as an array of values over time. It efficiently computes the maximum subarray sum, pinpointing periods of high activity and facilitating strategic decisions on product promotions, content posting, and user interaction timing.</p>
+
+                <h4 class="myh4">Challenges:</h4>
+                <ul>
+                  <li class="myli">Analyzing user engagement in e-commerce using Kadane’s algorithm poses challenges in accurately distinguishing engagement spikes from noise in the data and adapting the algorithm to handle real-time streaming data.</li>
+                  <li class="myli">While effective for identifying contiguous segments of maximum engagement, Kadane’s algorithm may struggle with diverse engagement patterns or when dealing with non-contiguous peaks. Scaling Kadane’s for real-time applications with continuously updated data streams requires robust adaptation and integration with other algorithms for comprehensive user engagement analysis.</li>
+                </ul>
+                <h4 class="myh4">Time Complexity</h4>
+                <ul>
+                  <li class="myli">Time Complexity: O(n), where n is the number of elements in the engagement metrics array. Kadane’s algorithm operates in linear time, making it suitable for processing large datasets quickly.</li>
+                </ul>
+                <h4 class="myh4">Space Complexity</h4>
+                <ul>
+                  <li class="myli">Space Complexity: O(1), as it requires constant space beyond the input array, ensuring minimal memory overhead.</li>
+                </ul>
+                <h4 class="myh4">Code:<a href="https://github.com/ayekaunic/Kadanes-Algorithm/blob/main/kadane.py">click here!</a>
+                <h4 class="myh4"></h4>
+                <h4 class="myh4">Sources:<a href="https://www.storyly.io/glossary/user-engagement">Storyly</a></h4>
+
+          </div>
+          <h2>..</h2>
+          <div class="box">
+            <h3 class="myh">14.Accurate Delivery Charge Calculation </h3>
+            <p class="abc2">Delivery charge calculation is usually not shown to users.Hence to provide transparent and accurate delivery charges to its users. The optimal route and distance between the user's location and the selected warehouse or store must be efficiently calculated.This is crucial for ensuring fair pricing for customers and delivery partners, building trust, and maintaining a positive user experience. </p>
+            <h4 class="myh4">Market benefits:</h4>
+            <ul>
+              <li class="myli">Providing accurate and transparent delivery charges builds customer trust and satisfaction.</li>
+              <li class="myli">Fair pricing attracts and retains customers, leading to increased order volume and revenue.</li>
+              <li class="myli">Fair compensation for delivery partners based on accurate distance calculations improves their satisfaction and motivation.</li>
+            </ul>
+            <h4 class="myh4">Algorithm: Dijkstra's algorithm</h4>
+            <p class="abc2">Dijkstra's algorithm is a graph traversal algorithm that finds the
+              shortest path between two nodes in a graph. It is used to calculate the optimal route and distance
+              between the user's location and the selected warehouse or store.</p>
+              <h4 class="myh4">Implementation consideration:</h4>
+              <p class="abc2">Represent the road network as a weighted graph, where nodes represent intersections or points of interest, and edges represent road segments with associated weights.<br/>The algorithm will explore the graph, keeping track of the shortest distance to each node, and eventually return the shortest path and distance.<br/>Calculate the fare based on the distance obtained from Dijkstra’s algorithm, considering additional factors such as delivery charges per kilometer, traffic conditions, and peak hours.<br/>Base fare is a fixed charge.
+                Fare per kilometer is multiplied by the shortest path distance to determine the total delivery charge.</p>
+              <h4 class="myh4">Challenges:</h4>
+              <ul>
+                <li class="myli">Dijkstra's algorithm may struggle with large, complex road networks
+                  with numerous intersections and road segments, leading to longer computation times and potential errors.</li>
+                  <li class="myli">Calculating the distance between two points on a map while considering real-world factors such as traffic conditions, road closures, and one-way streets.</li>
+                  <li class="myli">Accessing and maintaining reliable map data that reflects current road conditions.</li>
+              </ul>
+              <h4 class="myh4">Time Complexity</h4>
+              <ul>
+                <li class="myli">It is typically O(V2) when using a simple array implementation or O((V + E) log V) with a priority queue, where V represents the number of vertices and E represents the number of edges
+              </ul>
+              <h4 class="myh4">Space Complexity</h4>
+              <ul>
+                <li class="myli">It is typically O(V) to O(E + V), where V is the number of vertices and E is the number of edges in the graph</li>
+              </ul>
+              <h4 class="myh4">Code:<a href="https://gist.github.com/Suman2593/d357d24310b053838077dab5ca2b0c1d/">Click here!</a></h4>
+              <h4 class="myh4">Sources:<a href="https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/">Geeksforgeeks</a></h4>
+
+          </div>
+          <h2>..</h2>
+          <div class="box">
+            <h3 class="myh">15. Real time order tracking</h3>
+            <p class="abc2">Real-time order tracking is a feature that allows customers to track
+              the status of their orders in real-time, providing them with up-to-date information on the
+              location of their order, estimated delivery time, and any updates or delays. This feature
+              can help improve customer satisfaction and trust by providing transparency and visibility into the order process.</p>
+              <h4 class="myh4">Market benefits:</h4>
+              <ul>
+                <li class="myli">Real-time order tracking builds trust and satisfaction by providing customers with transparency and control over the delivery process.</li>
+                <li class="myli">Offering real-time tracking can set an e-commerce platform apart from competitors, encouraging customer loyalty and repeat business.</li>
+                <li class="myli">Efficient route optimization and real-time updates can reduce delivery times and operational costs.</li>
+              </ul>
+              <h4 class="myh4">Algorithm: A* algorithm</h4>
+              <p class="abc2">Calculate the optimal route for delivery executives in real-time.Find the shortest path in a graph with real-time updates for dynamic conditions like traffic.</p>
+              <h4 class="myh4">Implementation consideration:</h4>
+              <p class="abc2">Model the delivery area as a weighted graph, where nodes represent locations (e.g., warehouse, delivery points) and edges represent roads with associated weights (e.g., distance, traffic conditions).<br/>Continuously update the graph with real-time traffic data to reflect current conditions<br/>Use the A* algorithm to find the shortest path for delivery vehicles. The A* algorithm is chosen for its efficiency in pathfinding with heuristics to estimate the shortest path<br/>Use GPS data to track the current location of delivery vehicles in real-time.Integrate with traffic data sources (e.g., Google Maps API) to get real-time traffic conditions and update the graph accordingly</p>
+            
+              <h4 class="myh4">Challenges:</h4>
+              <ul>
+                <li class="myli">Continuously and accurately tracking the location of delivery vehicles in real-time while accounting for dynamic traffic conditions and unexpected delays</li>
+                <li class="myli">Integrating various data sources, such as GPS technology and traffic data, to ensure reliable and up-to-date tracking information</li>
+                <li class="myli">Communicating ETA updates in a clear and timely manner to manage customer expectations and provide a positive delivery experience for implementing a notification system to send real-time updates to customers about their order status and ETA.</li>
+              </ul>
+              <h4 class="myh4">Time Complexity</h4>
+              <ul>
+                <li class="myli">O(E), where E is the number of edges.</li>
+              </ul>
+              <h4 class="myh4">Space Complexity</h4>
+              <ul>
+                <li class="myli">O(V), where V is the number of vertices..</li>
+              </ul>
+              <h4 class="myh4">Code:<a href="https://gist.github.com/jamiees2/5531924">Click here!</a></h4>
+              <h4 class="myh4">Sources:<a href="https://www.geeksforgeeks.org/a-search-algorithm/">geeksforgeeks</a></h4>
+          </div>
+            <!-- here done -->
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Contact -->
+      <section id="contact" class="four">
+        <div class="container">
+          <header>
+            <h2>Contact</h2>
+          </header>
+          <p>
+            Elementum sem parturient nulla quam placerat viverra mauris non cum
+            elit tempus ullamcorper dolor. Libero rutrum ut lacinia donec curae
+            mus. Eleifend id porttitor ac ultricies lobortis sem nunc orci
+            ridiculus faucibus a consectetur. Porttitor curae mauris urna mi
+            dolor.
+          </p>
+          <form method="post" action="#">
+            <div class="row">
+              <div class="col-6 col-12-mobile">
+                <input type="text" name="name" placeholder="Name" />
+              </div>
+              <div class="col-6 col-12-mobile">
+                <input type="text" name="email" placeholder="Email" />
+              </div>
+              <div class="col-12">
+                <textarea name="message" placeholder="Message"></textarea>
+              </div>
+              <div class="col-12">
+                <input type="submit" value="Send Message" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <!-- Copyright -->
+      <ul class="copyright">
+        <li>&copy; Untitled. All rights reserved.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
