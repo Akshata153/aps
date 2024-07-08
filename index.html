@@ -344,70 +344,36 @@ Portfolio Domain:
               
             </div>
             <h2>..</h2>
-
             <div class="box">
-              <h3 class="myh">2. Cart feature</h3>
-              <p class="abc2">Items can be added and removed from cart which user wants to purchase.</p>
-              <h4 class="myh4">Algorithm: Hash Table</h4>
-              <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--7x2naWJ6--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://cl.ly/dcc906e5110a/Image%25202019-05-12%2520at%252011.38.16%2520PM.png" alt="Image for hashing" height="300" width="400">
-              <h4 class="myh4">Market benefits:</h4>
-              <ul>
-                <li class="myli">
-                  Immediate Access: Users can quickly add items to their cart
-                  with average constant-time complexity for insertion O(1).
-                </li>
-                <li class="myli">
-                  Efficient Management: Items can be efficiently retrieved and
-                  managed, ensuring users can easily view and modify their
-                  selections.
-                </li>
-                <li class="myli">
-                  Control and Flexibility: Users maintain control over their
-                  shopping experience, adding or removing items as needed
-                  without constraints.
-                </li>
-                <li class="myli">
-                  Memory Efficiency: Space complexity for the initial creation
-                  of the hash table is O(m), where 𝑚 m is the number of initial
-                  items added to the cart, and it dynamically adjusts as items
-                  are added or removed.
-                </li>
-              </ul>
-              <h4 class="myh4">Time complexity:</h4>
-              <ul>
-                <li class="myli">
-                  Insertion: O(1) average time complexity for adding items to
-                  the cart.
-                </li>
-                <li>
-                  Deletion: O(1) average time complexity for removing items from
-                  the cart based on their unique identifier (e.g., product ID)
-                </li>
-                <li class="myli">Lookup:O(1) average time complexity.</li>
-              </ul>
-              <h4 class="myh4">Space complexity:</h4>
-              <ul>
-                <li class="myli">
-                  Creation: O(m), where m is the number of items initially added
-                  to the cart. The space complexity dynamically adjusts based on
-                  the number of items in the cart.
-                </li>
-              </ul>
-              <h4 class="myh4">
-                Additional feature can be implemented of search in cart:
-              </h4>
-              <p class="abc2">
-                Time complexity for search is O(1) it can be implemented.
-              </p>
-              
-              <h4 class="myh4">Limitations</h4>
-              <ul>
-                <li class="myli">Hash Collisions: In a hash table, multiple keys may hash to the same index, causing collisions</li>
-                <li class="myli">Deterministic Performance: While average time complexities for insertion, deletion, and lookup are O(1), these operations can degrade to O(n) in worst-case scenarios (e.g., under a poor hash function or high collision rate).</li>
-                <li class="myli">Memory Overhead and load factor</li>
-              </ul>
-              <h4 class="myh4">Code: <a href="https://github.com/ByJuanDiego/hash-table">Click here!</a></h4>
-             
+              <h3 class="myh">2. User Engagement Analysis</h3>
+              <p class="abc2">User engagement analysis is a crucial aspect of e-commerce platforms as
+                it helps businesses understand how users interact with their products and services. By analyzing user engagement, businesses  
+                can identify areas for improvement, optimize their offerings, and improve customer satisfaction.</p>
+                <h4 class="myh4">Algorithm: Kadanes algorithm</h4>
+                
+                <h4 class="myh4">Market benefits:</h4>
+                <ul>
+                  <li class="myli">It offers significant benefits by identifying peak engagement periods, optimizing content scheduling, and enhancing user interaction strategies, which ultimately improve overall user engagement and satisfaction.</li>
+                </ul>
+                
+                  <h4 class="myh4">Implementation consideration:</h4>
+                  <p class="abc2">Kadane’s algorithm is employed by treating user engagement metrics (such as clicks, views, or purchases) as an array of values over time. It efficiently computes the maximum subarray sum, pinpointing periods of high activity and facilitating strategic decisions on product promotions, content posting, and user interaction timing.</p>
+  
+                  <h4 class="myh4">Challenges:</h4>
+                  <ul>
+                    <li class="myli">Analyzing user engagement in e-commerce using Kadane’s algorithm poses challenges in accurately distinguishing engagement spikes from noise in the data and adapting the algorithm to handle real-time streaming data.</li>
+                    <li class="myli">While effective for identifying contiguous segments of maximum engagement, Kadane’s algorithm may struggle with diverse engagement patterns or when dealing with non-contiguous peaks. Scaling Kadane’s for real-time applications with continuously updated data streams requires robust adaptation and integration with other algorithms for comprehensive user engagement analysis.</li>
+                  </ul>
+                  <h4 class="myh4">Time Complexity</h4>
+                  <ul>
+                    <li class="myli">Time Complexity: O(n), where n is the number of elements in the engagement metrics array. Kadane’s algorithm operates in linear time, making it suitable for processing large datasets quickly.</li>
+                  </ul>
+                  <h4 class="myh4">Space Complexity</h4>
+                  <ul>
+                    <li class="myli">Space Complexity: O(1), as it requires constant space beyond the input array, ensuring minimal memory overhead.</li>
+                  </ul>
+                  <h4 class="myh4">Code:<a href="https://github.com/ayekaunic/Kadanes-Algorithm/blob/main/kadane.py">Click here!</a>
+                  <h4 class="myh4"></h4>
             </div>
             <h2>..</h2>
             <div class="box">
@@ -768,40 +734,87 @@ Portfolio Domain:
                   <li class="myli">Storage: O(n), where n is the number of items. The space is required to store the item attributes and diversity measures.</li>
                 </ul>
                 <h4 class="myh4">Code:<a href="https://github.com/alirezagharahi/d_sknn">Session-based News Recommenders Diversity-aware</a></h4>
-                <p class="abc2">(Note:Provided code shall be a refernce to write code for diverse content exploration )</p>
+                <p class="abc2">(Note:Provided code shall be a reference to write code for diverse content exploration )</p>
                 
           </div>
+
           <h2>..</h2>
           <div class="box">
-            <h3 class="myh">13. User Engagement Analysis</h3>
-            <p class="abc2">User engagement analysis is a crucial aspect of e-commerce platforms as
-              it helps businesses understand how users interact with their products and services. By analyzing user engagement, businesses  
-              can identify areas for improvement, optimize their offerings, and improve customer satisfaction.</p>
-              <h4 class="myh4">Algorithm: Kadanes algorithm</h4>
-              
-              <h4 class="myh4">Market benefits:</h4>
-              <ul>
-                <li class="myli">It offers significant benefits by identifying peak engagement periods, optimizing content scheduling, and enhancing user interaction strategies, which ultimately improve overall user engagement and satisfaction.</li>
-              </ul>
-              
-                <h4 class="myh4">Implementation consideration:</h4>
-                <p class="abc2">Kadane’s algorithm is employed by treating user engagement metrics (such as clicks, views, or purchases) as an array of values over time. It efficiently computes the maximum subarray sum, pinpointing periods of high activity and facilitating strategic decisions on product promotions, content posting, and user interaction timing.</p>
+            <h3 class="myh">13. Cart feature</h3>
+            <p class="abc2">Items can be added and removed from cart which user wants to purchase.</p>
+            <h4 class="myh4">Algorithm: Hash Table</h4>
+            <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--7x2naWJ6--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://cl.ly/dcc906e5110a/Image%25202019-05-12%2520at%252011.38.16%2520PM.png" alt="Image for hashing" height="300" width="400">
+            <h4 class="myh4">Market benefits:</h4>
+            <ul>
+              <li class="myli">
+                Immediate Access: Users can quickly add items to their cart
+                with average constant-time complexity for insertion O(1).
+              </li>
+              <li class="myli">
+                Efficient Management: Items can be efficiently retrieved and
+                managed, ensuring users can easily view and modify their
+                selections.
+              </li>
+              <li class="myli">
+                Control and Flexibility: Users maintain control over their
+                shopping experience, adding or removing items as needed
+                without constraints.
+              </li>
+              <li class="myli">
+                Memory Efficiency: Space complexity for the initial creation
+                of the hash table is O(m), where 𝑚 m is the number of initial
+                items added to the cart, and it dynamically adjusts as items
+                are added or removed.
+              </li>
+            </ul>
+            <h4 class="myh4">Time complexity:</h4>
+            <ul>
+              <li class="myli">
+                Insertion: O(1) average time complexity for adding items to
+                the cart.
+              </li>
+              <li>
+                Deletion: O(1) average time complexity for removing items from
+                the cart based on their unique identifier (e.g., product ID)
+              </li>
+              <li class="myli">Lookup:O(1) average time complexity.</li>
+            </ul>
+            <h4 class="myh4">Space complexity:</h4>
+            <ul>
+              <li class="myli">
+                Creation: O(m), where m is the number of items initially added
+                to the cart. The space complexity dynamically adjusts based on
+                the number of items in the cart.
+              </li>
+            </ul>
+            <h4 class="myh4">
+              Additional feature can be implemented of search in cart:
+            </h4>
+            <p class="abc2">
+              Time complexity for search is O(1) it can be implemented.
+            </p>
+            
+            <h4 class="myh4">Limitations</h4>
+            <ul>
+              <li class="myli">Hash Collisions: In a hash table, multiple keys may hash to the same index, causing collisions</li>
+              <li class="myli">Deterministic Performance: While average time complexities for insertion, deletion, and lookup are O(1), these operations can degrade to O(n) in worst-case scenarios (e.g., under a poor hash function or high collision rate).</li>
+              <li class="myli">Memory Overhead and load factor</li>
+            </ul>
+            <h4 class="myh4">Code: <a href="https://github.com/ByJuanDiego/hash-table">Click here!</a></h4>
+           
+          </div>
 
-                <h4 class="myh4">Challenges:</h4>
-                <ul>
-                  <li class="myli">Analyzing user engagement in e-commerce using Kadane’s algorithm poses challenges in accurately distinguishing engagement spikes from noise in the data and adapting the algorithm to handle real-time streaming data.</li>
-                  <li class="myli">While effective for identifying contiguous segments of maximum engagement, Kadane’s algorithm may struggle with diverse engagement patterns or when dealing with non-contiguous peaks. Scaling Kadane’s for real-time applications with continuously updated data streams requires robust adaptation and integration with other algorithms for comprehensive user engagement analysis.</li>
-                </ul>
-                <h4 class="myh4">Time Complexity</h4>
-                <ul>
-                  <li class="myli">Time Complexity: O(n), where n is the number of elements in the engagement metrics array. Kadane’s algorithm operates in linear time, making it suitable for processing large datasets quickly.</li>
-                </ul>
-                <h4 class="myh4">Space Complexity</h4>
-                <ul>
-                  <li class="myli">Space Complexity: O(1), as it requires constant space beyond the input array, ensuring minimal memory overhead.</li>
-                </ul>
-                <h4 class="myh4">Code:<a href="https://github.com/ayekaunic/Kadanes-Algorithm/blob/main/kadane.py">Click here!</a>
-                <h4 class="myh4"></h4>
+
+
+
+
+
+
+
+
+
+          
+         
 
                 
                 
